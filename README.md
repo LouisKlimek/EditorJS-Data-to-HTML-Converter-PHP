@@ -5,7 +5,7 @@
     <img src="editorjsLogo.png" alt="EditorJS-Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">EditorJS Data to HTML Converter PHP</h3>
+  <h3 align="center">EditorJS Data to HTML Converter for PHP</h3>
 
   <p align="center">
     A PHP Class to convert EditorJS JSON Data to HTML.
