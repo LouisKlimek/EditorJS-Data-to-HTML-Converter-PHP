@@ -110,10 +110,11 @@ To Following HTML
 You just need to call the Function in the "editorJSConverter.php" like so
 ```sh
 include 'editorJSConverter.php';
+$editorJSConverter = new editorJSConverter();
 
 $jstring = '{"time":1592596921258,"blocks":[{"type":"header","data":{"text":"Some Header","level":2}},{"type":"paragraph","data":{"text":"Lorem Ipsum Text thingy Lorem Lorem Ipsum<br>"}},{"type":"list","data":{"style":"ordered","items":["First List Item","Second List Item","Third List Item"]}},{"type":"table","data":{"content":[["Table Value 1<br>","Table Value 2<br>"],["Table Value 3<br>","Table Value 4<br>"]]}}],"version":"2.17.0"}';
     
-print jsonToHtml( $jstring );
+print $editorJSConverter->jsonToHtml( $jstring );
 ```
 
 
