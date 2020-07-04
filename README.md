@@ -140,10 +140,9 @@ If you decide that you want to help out, here is a little List of things that ne
 
 1. Add delimiter Block Type
 2. Add embed Block Type
-3. Add Quote Block Type
-4. Add Code Block Type
-5. Add raw Block Type
-6. Add warning Block Type
+3. Add Code Block Type
+4. Add raw Block Type
+5. Add warning Block Type
 
 
 
