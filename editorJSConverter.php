@@ -64,6 +64,14 @@ class editorJSConverter{
     
                     $ret .= $tableHtml;
                     break;
+                case 'quote':
+                    // Quote Block Type
+                    $ret .= '<blockquote>
+                    <p>';
+                    $ret .= $item->data->text;
+                    $ret .= "―".$item->data->caption;
+                    $ret .= "</p></blockquote>";
+                    break;
                 default:
                     // Unknown Block Type
                     throw new Exception("Unknown Block Type: '" . $item->type."'");
